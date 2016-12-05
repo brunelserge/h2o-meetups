@@ -1,4 +1,6 @@
 library(readr)
+# windows install
+# install.packages("doMC", repos="http://R-Forge.R-project.org")
 library(doMC)
 
 registerDoMC(cores = 3)
